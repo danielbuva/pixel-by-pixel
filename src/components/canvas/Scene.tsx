@@ -9,6 +9,7 @@ export default function Scene({ ...props }) {
   return (
     <Canvas
       {...props}
+      frameloop="demand"
       orthographic
       camera={{
         zoom: 50,
